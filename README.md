@@ -48,7 +48,10 @@ This project implements machine learning models to predict stock price movements
   - yfinance
 
 ## Usage
-
+0. clone code：
+```bash
+git clone https://github.com/TTTyj/StockPricePrediction.git
+```
 1. Activate virtual environment:
 ```bash
 source venv/bin/activate && which python
@@ -125,25 +128,27 @@ deactivate
   - yfinance
 
 ## 使用方法
+1. 克隆项目：
+git clone https://github.com/TTTyj/StockPricePrediction.git
 
-1. 激活虚拟环境：
+2. 激活虚拟环境：
 source venv/bin/activate && which python
 
-2. 运行数据处理与可视化：
+3. 运行数据处理与可视化：
 ```bash
 python data.py
 ```
 
-3. 运行随机森林模型：
+4. 运行随机森林模型：
 ```bash
 python ml_model.py
 ```
 
-4. 运行逻辑回归模型：
+5. 运行逻辑回归模型：
 ```bash
 python logistic_model.py
 ``` 
-5. 退出虚拟环境：
+6. 退出虚拟环境：
 ```bash
 deactivate
 ``` 
