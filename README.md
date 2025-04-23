@@ -75,8 +75,7 @@ python logistic_model.py
 5. Deactivate virtual environment:
 ```bash
 deactivate
-
----
+```
 
 # 股票价格预测与交易策略
 
