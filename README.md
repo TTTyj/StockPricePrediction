@@ -128,10 +128,14 @@ deactivate
 
 ## 使用方法
 1. 克隆项目：
+```bash
 git clone https://github.com/TTTyj/StockPricePrediction.git
+```
 
 2. 激活虚拟环境：
+```bash
 source venv/bin/activate && which python
+```
 
 3. 运行数据处理与可视化：
 ```bash
